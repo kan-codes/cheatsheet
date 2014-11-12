@@ -55,7 +55,7 @@ php artisan auth:reminders-table
 // Flush the application cache
 php artisan cache:clear
 // Create a new Artisan command (L3:task)
-php artisan command:make name [--command[="..."]] [--path[="..."]] [--namespace[="..."]]
+php artisan command:make name [--command[="..."]] [--path[="..."]] [--namespace[="..."]];
 // Publish a package's configuration to the application
 php artisan config:publish
 // Create a new resourceful controller
