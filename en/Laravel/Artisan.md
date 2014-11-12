@@ -1,4 +1,4 @@
-```php
+```
 // Displays help for a given command
 php artisan --help OR -h
 // Do not output any message
@@ -61,23 +61,23 @@ php artisan config:publish
 // Create a new resourceful controller
 php artisan controller:make [--bench="vendor/package"]
 // Seed the database with records
-php artisan db:seed [--class[="..."]] [--database[="..."]]
+php artisan db:seed [--class[="..."]] [--database[="..."]];
 // Set the application key
 php artisan key:generate
 
 // Database migrations
 php artisan migrate
-php artisan migrate [--bench="vendor/package"] [--database[="..."]] [--path[="..."]] [--package[="..."]] [--pretend] [--seed]
+php artisan migrate [--bench="vendor/package"] [--database[="..."]] [--path[="..."]] [--package[="..."]] [--pretend] [--seed];
 // Create the migration repository
-php artisan migrate:install [--database[="..."]]
+php artisan migrate:install [--database[="..."]];
 // Create a new migration file
 php artisan migrate:make name [--bench="vendor/package"] [--create] [--package[="..."]] [--path[="..."]] [--table[="..."]]
 // Reset and re-run all migrations
-php artisan migrate:refresh [--database[="..."]] [--seed]
+php artisan migrate:refresh [--database[="..."]] [--seed];
 // Rollback all database migrations
-php artisan migrate:reset [--database[="..."]] [--pretend]
+php artisan migrate:reset [--database[="..."]] [--pretend];
 // Rollback the last database migration
-php artisan migrate:rollback [--database[="..."]] [--pretend]
+php artisan migrate:rollback [--database[="..."]] [--pretend];
 
 // Listen to a given queue
 php artisan queue:listen [--queue[="..."]] [--delay[="..."]] [--memory[="..."]] [--timeout[="..."]] [connection]
