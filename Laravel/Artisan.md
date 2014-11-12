@@ -1,3 +1,4 @@
+```php
 // Displays help for a given command
 php artisan --help OR -h
 // Do not output any message
@@ -90,3 +91,4 @@ php artisan session:table
 // Publish a package's views to the application
 php artisan view:publish [--path[="..."]] package
 php artisan tail [--path[="..."]] [--lines[="..."]] [connection]
+```
