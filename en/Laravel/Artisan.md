@@ -48,7 +48,7 @@ php artisan up
 // Create a new package workbench
 php artisan workbench
 
-// Publish a package's assets to the public directory
+// Publish a packages assets to the public directory
 php artisan asset:publish [--bench[="vendor/package"]] [--path[="..."]] [package]
 // Create a migration for the password reminders table
 php artisan auth:reminders-table
