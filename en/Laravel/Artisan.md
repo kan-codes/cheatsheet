@@ -1,4 +1,4 @@
-```java
+``` php
 // Displays help for a given command
 php artisan --help OR -h
 // Do not output any message
