@@ -1,4 +1,4 @@
-``` php
+```php
 // Displays help for a given command
 php artisan --help OR -h
 // Do not output any message
@@ -48,7 +48,7 @@ php artisan up
 // Create a new package workbench
 php artisan workbench
 
-// Publish a packages assets to the public directory
+// Publish a package's assets to the public directory
 php artisan asset:publish [--bench[="vendor/package"]] [--path[="..."]] [package]
 // Create a migration for the password reminders table
 php artisan auth:reminders-table
@@ -56,7 +56,6 @@ php artisan auth:reminders-table
 php artisan cache:clear
 // Create a new Artisan command (L3:task)
 php artisan command:make name [--command[="..."]] [--path[="..."]] [--namespace[="..."]]
-
 // Publish a package's configuration to the application
 php artisan config:publish
 // Create a new resourceful controller
