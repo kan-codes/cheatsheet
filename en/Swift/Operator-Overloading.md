@@ -20,10 +20,9 @@ struct Vector2D {
     return Vector2D(x: left.x + right.x, y: left.y + right.y)
 }
 ```
+Operators can be `prefix`, `infix`, or `postfix`.
 
-Operators can be prefix, infix, or postfix.
-
-You have to add @assignment if you wish to define compound assignment operators like +=, ++ or -=
+You have to add `@assignment` if you wish to define compound assignment operators like +=, ++ or -=
 
 ```js
 @assignment func += (inout left: Vector2D, right: Vector2D) {

@@ -1,6 +1,6 @@
-```js
 Functions are special case closures ({})
 
+```js
 // Closure example.
 // `->` separates the arguments and return type
 // `in` separates the closure header from the closure body

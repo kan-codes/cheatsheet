@@ -1,6 +1,7 @@
-```js
-All methods and properties of a class are public. If you just need to store data in a structured object, you should use a struct
+All methods and properties of a class are public. If you just need to store data
+in a structured object, you should use a `struct`
 
+```js
 // A parent class of Square
 class Shape {
     init() {

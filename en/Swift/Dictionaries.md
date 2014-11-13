@@ -1,5 +1,4 @@
 ```js
-// Dictionary
 var occupations = [
     "Malcolm": "Captain",
     "kaylee": "Mechanic"

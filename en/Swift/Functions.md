@@ -1,6 +1,6 @@
-```js
 Functions are a first-class type, meaning they can be nested in functions and can be passed around
 
+```js
 // Function that returns a String
 func greet(name: String, day: String) -> String {
     return "Hello \(name), today is \(day)."

@@ -30,6 +30,9 @@ Model::on('connection-name')->find(1);
 Model::with('relation')->get();
 Model::all()->take(10);
 Model::all()->skip(10);
+// Default Eloquent sort is ascendant
+Model::all()->orderBy('column');
+Model::all()->orderBy('column','desc');
 			
 
 Soft Delete
