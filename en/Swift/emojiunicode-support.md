@@ -13,4 +13,4 @@ You can use any unicode character (including emoji) as variable names or in Stri
 
 **Which, in Xcode looks like**
 
-<img src="../img/swift-emoji.png" alt="Swift Emoji" width="400px">
+<img src="http://mhm5000.gitbooks.io/swift-cheat-sheet/content/img/swift-emoji.png" alt="Swift Emoji" width="400px">
