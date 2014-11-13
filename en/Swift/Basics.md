@@ -4,7 +4,7 @@ println("Hello, world")
 var myVariable = 42
 // constant                        
 let π = 3.1415926
-// x = 10, y = 20                             
+// x = 10, y = 20
 let (x, y) = (10, 20)
 // 1,000.0001
 let explicitDouble: Double = 1_000.000_1
